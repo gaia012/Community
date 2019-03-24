@@ -1,0 +1,41 @@
+OPTIONS http://localhost:8081/v1/customers
+
+###
+
+GET http://localhost:8081/v1/customers
+
+###
+
+GET http://localhost:8081/v1/customers/1
+
+###
+
+POST http://localhost:8081/v1/customers
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "gaia012",
+    "email": "gaia012@naver.com"
+}
+
+###
+
+DELETE http://localhost:8081/v1/customers/1
+
+###
+
+HEAD http://localhost:8081/v1/customers/1
+
+###
+
+PUT http://localhost:8081/v1/customers/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "gaia012",
+    "email": "gaia012@naver.com"
+}
+
+###
