@@ -1,4 +1,4 @@
-package kr.co.gaia012.customer;
+package kr.co.gaia012.demo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpMethod;

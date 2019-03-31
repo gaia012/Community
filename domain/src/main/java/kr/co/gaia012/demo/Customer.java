@@ -1,4 +1,4 @@
-package kr.co.gaia012.customer;
+package kr.co.gaia012.demo;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
