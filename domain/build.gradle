@@ -22,11 +22,12 @@ sourceCompatibility = "1.8"
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.cloud:spring-cloud-starter-config'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
-    implementation 'org.springframework.data:spring-data-rest-hal-browser'
     implementation 'org.springframework.boot:spring-boot-starter-hateoas'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+//    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.cloud:spring-cloud-starter-config'
+    implementation 'org.springframework.cloud:spring-cloud-starter-eureka:1.4.6.RELEASE'
+    implementation 'org.springframework.data:spring-data-rest-hal-browser'
     implementation 'org.projectlombok:lombok'
 //    testImplementation 'org.apache.maven.plugins:maven-surefire-plugin' // plugin
 //    testImplementation 'org.apache.maven.plugins:asciidoctor-maven-plugin' // plugin
